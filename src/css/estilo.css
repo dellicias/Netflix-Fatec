@@ -8,21 +8,50 @@ body{
     height: 100vh;
 }
 
-header {
-    width: 100%;
+.perfilLog{
+    margin-left: 25px;
+    margin-bottom: 2px;
+    width: 100px;
+    height: 50px;
+}
+
+.perfilLog:hover{
+    transform:scale(120%);
+    transition: 1.0s;
+}
+
+
+.cabecalho{
+    background:#000000;
     height: 70px;
-    background: #1A1D1F;
+    width: 100%;
+    padding: 10px;
+}
+
+.cab-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
-    /* Adicionado para controlar o espaçamento */
 }
 
-#logo {
-    width: 60px;
-    height: 50px;
-    border-radius: 20px;
+.cab-menu{
+    list-style: none;
+    display:flex;
+}
+
+.cab-menu li{
+    margin-left:20px;
+}
+
+.cab-menu a{
+    color:#fff;
+    text-decoration:none;
+    
+}
+
+.cab-menu a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .btn {
